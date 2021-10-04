@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FDP.Calc" BackgroundColor="#000000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        
+        <!-- First row -->
+
+        <BoxView Color="Gray" />
+        <Button Text="7" HorizontalOptions="Center"
+               VerticalOptions="Center" TextColor="#FFF" />
+
+
+
+        <BoxView Grid.Column="1"
+                 Color="Gray" />
+        <Button Text="8" Grid.Column="1" HorizontalOptions="Center"
+               VerticalOptions="Center" TextColor="#FFF"  />
+
+
+
+
+        <BoxView Grid.Column="2"
+                 Color="Gray" />
+        <Button Text="9" Grid.Column="2" HorizontalOptions="Center"
+               VerticalOptions="Center" TextColor="#FFF" />
+
+
+
+        <!-- Second row -->
+
+        <BoxView Grid.Row="1"
+                 Color="Gray" />
+
+        <Button Text="4" Grid.Row="1" HorizontalOptions="Center"
+               VerticalOptions="Center" TextColor="#FFF" />
+
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="1"
+                 Color="Gray" />
+
+        <Button Text="5" Grid.Row="1"  Grid.Column="1" HorizontalOptions="Center"
+               VerticalOptions="Center" TextColor="#FFF" />
+
+
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="2"
+                 Color="Gray" />
+
+        <Button Text="6" Grid.Row="1"  Grid.Column="2" HorizontalOptions="Center"
+               VerticalOptions="Center" TextColor="#FFF" />
+
+
+
+
+        <!-- Third row -->
+
+
+        <BoxView Color="Gray" Grid.Row="2" />
+        <Button Text="-" HorizontalOptions="Center"
+               VerticalOptions="Center" Grid.Row="2" TextColor="#FFF" />
+
+
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="1"
+                 Color="Gray" />
+
+        <Button Text="0" Grid.Row="2"
+               Grid.Column="1" HorizontalOptions="Center"
+               VerticalOptions="Center" TextColor="#FFF" />
+
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="2"
+                 Color="#AC7208" />
+
+        <Button Text="+" Grid.Row="2"
+               Grid.Column="2"  HorizontalOptions="Center"
+               VerticalOptions="Center"  TextColor="#FFF" />
+
+
+
+
+        <!-- Fourth row -->
+
+
+        <BoxView Color="#AC7208" Grid.Row="3" />
+
+        <Button Text="*" Grid.Row="3"
+                HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="1"
+                 Color="#AC7208" />
+
+        <Button Text="="  Grid.Row="3"
+               Grid.Column="1"  HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="2"
+                 Color="#AC7208" />
+
+        <Button Text="/" Grid.Row="3"
+               Grid.Column="2" HorizontalOptions="Center"
+               VerticalOptions="Center" />
+ 
+
+
+
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FDP.ImageGallery">
+    <CarouselPage.Children>
+
+        <ContentPage Title="Dice 1">
+            <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                <Label Text="Dice 1" x:Name="LDice1"/>
+                <Image x:Name="Dice1" />
+            </StackLayout>
+        </ContentPage>
+
+        <ContentPage Title="Dice 2">
+            <Image x:Name="Dice2" />
+        </ContentPage>
+
+        <ContentPage Title="Dice 3">
+            <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand">
+                <Label Text="Dice 3" x:Name="LDice2" />
+                <Image x:Name="Dice3" />
+            </StackLayout>
+        </ContentPage>
+
+        <ContentPage Title="Dice 4">
+            <Image x:Name="Dice4" />
+        </ContentPage>
+
+        <ContentPage Title="Dice 5">
+            <Image x:Name="Dice5" />
+        </ContentPage>
+        
+        
+    </CarouselPage.Children>
+</CarouselPage>

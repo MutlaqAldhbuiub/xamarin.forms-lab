@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FDP.MainPage"
+             BackgroundColor="#CBD1D4">
+
+    <StackLayout BackgroundColor="#E6E7E8" Margin="0" Padding="20">
+        <StackLayout BackgroundColor="#120303" Padding="5">
+            <Label Text="Main Page" HorizontalTextAlignment="Center" FontSize="25" TextColor="#FFFFFF"/>
+        </StackLayout>
+        <StackLayout BackgroundColor="White" Margin="0,50,0,0">
+            <Label Text="Your name" x:Name="usernameLabel" HorizontalTextAlignment="Center" FontSize="25" TextColor="Black"/>
+        </StackLayout>
+        <StackLayout Margin="0,50,0,0">
+            <Entry Placeholder="While String" x:Name="myinfo" BackgroundColor="white" TextColor="#351D1D"/>
+        </StackLayout>
+
+        <StackLayout Margin="0,25,0,0" BackgroundColor="White" Padding="20" Orientation="Horizontal">
+            <Button Text="CALL ME" x:Name="callMe" Clicked="callMe_Clicked"/>
+            <Button Text="OPEN WEB" x:Name="webBrowser" Clicked="webBrowser_Clicked"/>
+            <Button Text="ROTATE" x:Name="rotateButton" Clicked="rotateButton_Clicked"/>
+        </StackLayout>
+
+        <StackLayout Margin="0,20,0,0"  BackgroundColor="White" Padding="20" Orientation="Horizontal">
+            <Button Text="LOGOUT" x:Name="logout" Clicked="logout_Clicked"/>
+            <Button Text="NEXT PAGE" x:Name="movePage" Clicked="movePage_Clicked"/>
+            <Button Text="CLEAR" x:Name="clear"/>
+        </StackLayout>
+
+        <StackLayout Margin="0,20,0,0" BackgroundColor="#1C1C50">
+            <Label Text="+" x:Name="rotateLabel" TextColor="Red" HorizontalTextAlignment="Center" FontSize="50" FontAttributes="Bold" />
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

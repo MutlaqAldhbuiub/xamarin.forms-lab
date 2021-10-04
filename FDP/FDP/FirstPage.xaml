@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FDP.FirstPage"
+             BackgroundColor="#CBD1D4">
+    <StackLayout BackgroundColor="#E6E7E8" Margin="0">
+        <Label Text="🔭 Login to Discover credit has been added to  your wallet!" HorizontalTextAlignment="Center" FontSize="15" TextColor="White" BackgroundColor="#38ADB4"/>
+        <StackLayout Padding="5">
+            <Label Text="✋🏼 First Page" HorizontalTextAlignment="Start" FontSize="30" TextColor="#38ADB4"/>
+        </StackLayout>
+        <StackLayout Margin="0,25,0,0">
+            <Entry Placeholder="Ahmed Ali" x:Name="firstName" BackgroundColor="white" TextColor="#3A5562"/>
+            <Entry Placeholder="Password"  IsPassword="true" x:Name="passwordInput" BackgroundColor="white" TextColor="#3A5562"/>
+        </StackLayout>
+        <StackLayout Margin="0,10,0,0" BackgroundColor="White" Padding="20" Orientation="Horizontal">
+            <Button Text="❌ CLOSE" x:Name="back" BackgroundColor="#DF2020" TextColor="#FFFFFF" />
+            <Button Text="🧹 Clear" x:Name="clear" BackgroundColor="#919191" TextColor="#030202" />
+            <Button Text="🔐 Login" WidthRequest="180" x:Name="login" FontSize="20" Clicked="login_Clicked" TextColor="#FFFFFF" BackgroundColor="#38ADB4" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

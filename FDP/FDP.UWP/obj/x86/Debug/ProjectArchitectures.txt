@@ -1,0 +1,1 @@
+E:\Xamarin\FDP\FDP.UWP\FDP.UWP.csproj;x86

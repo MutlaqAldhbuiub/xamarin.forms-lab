@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FDP.ScreenPage">
+    <StackLayout BackgroundColor="#CBD1D4" Margin="0" Padding="20">
+        <StackLayout BackgroundColor="#E6E7E8" Padding="5">
+            <Label Text="Main Page" HorizontalTextAlignment="Center" FontSize="25" TextColor="#FFFFFF"/>
+        </StackLayout>
+        <StackLayout BackgroundColor="White" Margin="0,50,0,0">
+            <Label Text="My Info" x:Name="myinfo" HorizontalTextAlignment="Center" FontSize="25" TextColor="Black"/>
+        </StackLayout>
+
+        <StackLayout Margin="0,50,0,0" BackgroundColor="White" Padding="20">
+            <Button Text="Gallery" x:Name="gallery" Clicked="gallery_Clicked"/>
+            <Button Text="Close" x:Name="close"/>
+            <Button Text="Logout" x:Name="logout" Clicked="logout_Clicked" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
